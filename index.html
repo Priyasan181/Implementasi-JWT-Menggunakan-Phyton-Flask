@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>JWT</title>
+    
+</head>
+<body style="background-image: url(https://cdn.kibrispdr.org/data/gambar-background-pemandangan-alam-0.jpg); ">
+    <div class="container" style="margin-top: 100px;">
+        <div class="card col-6 mx-auto" style="border-radius: 30px;">
+            <div class="card-body">
+                <h1 class="mt-3"><center>WEB LOGIN JWT TOKEN</center></h1>
+                <form id="myform">
+                    <div class="form-group mt-5">
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" name="username" id="username">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" name="password" id="password">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <p id="form-message" style="word-wrap: break-word;"></p>
+
+            <div class="overflow-hidden row mx-3">
+                <button id="protected" type="submit" class="btn btn-primary mb-5">Protected</button>
+                <p id="message"></p>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
